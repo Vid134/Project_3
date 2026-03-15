@@ -1,0 +1,20 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Sort products
+STEP COMPLETED: Sort products
+
+STEP: Get all product names from page
+STEP COMPLETED: Get all product names from page
+Actual order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']

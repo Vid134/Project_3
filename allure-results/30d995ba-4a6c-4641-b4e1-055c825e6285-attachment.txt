@@ -1,0 +1,31 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Get all product names from page
+STEP COMPLETED: Get all product names from page
+
+STEP: Get all product prices from page
+STEP COMPLETED: Get all product prices from page
+
+STEP: Get all product images from page
+STEP COMPLETED: Get all product images from page
+
+STEP: Get all product add to cart option from page
+STEP COMPLETED: Get all product add to cart option from page
+Products displayed: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+Products price: [29.99, 9.99, 15.99, 49.99, 7.99, 15.99]
+Products images: [<selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.43")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.22")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.44")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.23")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.45")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.24")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.46")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.25")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.47")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.26")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.48")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.27")>]
+Products cart options: [<selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.53")>, <selenium.webdriver.remote.webelement.WebElement (session="e43bc51e80119b9dd1e504a080cc326e", element="f.5293478ED91E330CECAD366E92F16595.d.6BA0F9B650E58E2C9B2750CD2B7E706C.e.54")>]
+
+STEP: Verify product details are displayed
+STEP COMPLETED: Verify product details are displayed

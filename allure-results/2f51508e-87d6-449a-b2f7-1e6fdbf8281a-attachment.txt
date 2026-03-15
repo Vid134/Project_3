@@ -1,0 +1,15 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Verify Cart icon visibility
+STEP COMPLETED: Verify Cart icon visibility

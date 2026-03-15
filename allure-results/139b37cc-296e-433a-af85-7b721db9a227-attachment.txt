@@ -1,0 +1,32 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Add random products to cart
+STEP COMPLETED: Add random products to cart
+Selected products: [('Sauce Labs Bike Light', '$9.99'), ('Sauce Labs Fleece Jacket', '$49.99'), ('Sauce Labs Bolt T-Shirt', '$15.99'), ('Sauce Labs Onesie', '$7.99')]
+
+STEP: Click the cart icon which navigates to cart page
+STEP COMPLETED: Click the cart icon which navigates to cart page
+
+STEP: Get cart items
+STEP COMPLETED: Get cart items
+
+STEP: Get cart item names
+STEP COMPLETED: Get cart item names
+Selected names: ['Sauce Labs Bike Light', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Onesie']
+Cart names: ['Sauce Labs Bike Light', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Onesie']
+
+STEP: Get cart item prices
+STEP COMPLETED: Get cart item prices
+Selected price [9.99, 49.99, 15.99, 7.99]
+Cart price: [9.99, 49.99, 15.99, 7.99]

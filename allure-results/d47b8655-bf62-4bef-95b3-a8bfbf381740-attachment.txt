@@ -1,0 +1,36 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Add first product to cart
+STEP COMPLETED: Add first product to cart
+
+STEP: Click the cart icon which navigates to cart page
+STEP COMPLETED: Click the cart icon which navigates to cart page
+
+STEP: Click checkout
+STEP COMPLETED: Click checkout
+
+STEP: Enter first name in checkout form
+STEP COMPLETED: Enter first name in checkout form
+
+STEP: Enter last name in checkout form
+STEP COMPLETED: Enter last name in checkout form
+
+STEP: Enter zip code in checkout form
+STEP COMPLETED: Enter zip code in checkout form
+
+STEP: Click Continue button on checkout page
+STEP COMPLETED: Click Continue button on checkout page
+
+STEP: Get item total value
+STEP COMPLETED: Get item total value

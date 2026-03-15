@@ -1,0 +1,20 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Sort products
+STEP COMPLETED: Sort products
+
+STEP: Get all product prices from page
+STEP COMPLETED: Get all product prices from page
+Actual order: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+Expected order: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]

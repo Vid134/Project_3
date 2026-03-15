@@ -1,0 +1,18 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Verify product list is displayed
+
+STEP: Get all products from page
+STEP COMPLETED: Get all products from page
+STEP COMPLETED: Verify product list is displayed

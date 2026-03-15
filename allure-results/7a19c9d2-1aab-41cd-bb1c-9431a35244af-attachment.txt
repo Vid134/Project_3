@@ -1,0 +1,27 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Add first product to cart
+STEP COMPLETED: Add first product to cart
+
+STEP: Click the cart icon which navigates to cart page
+STEP COMPLETED: Click the cart icon which navigates to cart page
+
+STEP: Get product names
+STEP COMPLETED: Get product names
+
+STEP: Get product price
+STEP COMPLETED: Get product price
+
+STEP: Get product quantity
+STEP COMPLETED: Get product quantity

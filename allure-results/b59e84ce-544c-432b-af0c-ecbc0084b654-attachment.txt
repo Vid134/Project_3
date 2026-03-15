@@ -1,0 +1,18 @@
+
+STEP: Perform Login
+
+STEP: Enter Username
+STEP COMPLETED: Enter Username
+
+STEP: Enter Password
+STEP COMPLETED: Enter Password
+
+STEP: Click Login Button
+STEP COMPLETED: Click Login Button
+STEP COMPLETED: Perform Login
+
+STEP: Open sidebar menu
+STEP COMPLETED: Open sidebar menu
+
+STEP: Click All Items option
+STEP COMPLETED: Click All Items option
