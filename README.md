@@ -1,103 +1,92 @@
-SauceDemo Web Application Automation Framework
-Project Title
+# SauceDemo Automation Testing Framework
 
-Automation Testing Framework for SauceDemo E-Commerce Web Application
+Automation testing framework developed using **Python, Selenium, PyTest, and Page Object Model (POM)** to test the functionality of the SauceDemo e-commerce web application.
 
-Project Description
+---
 
-This project implements an automated testing framework for the SauceDemo web application using Python, Selenium WebDriver, PyTest, and the Page Object Model (POM) design pattern.
+# Project Description
 
-The framework validates core functionalities of the application including login authentication, product listing, cart operations, checkout workflow, sorting functionality, and reset application state.
+This project automates end-to-end testing of the SauceDemo web application including login, product validation, cart functionality, checkout process, sorting features, and reset functionality.
 
-The framework is structured using Page Object Model architecture, which improves code maintainability, readability, and scalability.
+The framework follows **Page Object Model architecture** for better maintainability, readability, and scalability.
 
-Website Link
+---
 
-Application under test:
+# Website Under Test
 
 https://www.saucedemo.com/
 
-Test Objective
+---
 
-The objective of this automation framework is to:
+# Test Objective
 
-Validate core functionalities of the SauceDemo application
+The objective of this automation framework is to validate:
 
-Ensure login authentication works correctly
+- Login functionality
+- Product listing and details
+- Add products to cart
+- Cart validation
+- Checkout process
+- Order confirmation
+- Product sorting
+- Reset application state
 
-Verify product listing and product details
+---
 
-Validate cart operations
+# Preconditions
 
-Validate checkout workflow
+Before executing the test suite:
 
-Verify sorting functionality
+- Python should be installed
+- Chrome browser installed
+- Internet connection available
+- Required dependencies installed
 
-Validate reset application state
+---
 
-Create a maintainable and scalable automation framework
+# Test Environment
 
-Preconditions
+| Parameter | Value |
+|----------|------|
+| OS | Windows |
+| Language | Python |
+| Automation Tool | Selenium |
+| Framework | PyTest |
+| Browser | Chrome |
+| IDE | PyCharm |
 
-Before executing the automation test suite, ensure the following:
+---
 
-Python is installed on the system
+# Technologies Used
 
-Selenium WebDriver is installed
+| Tool | Purpose |
+|-----|--------|
+| Python | Programming language |
+| Selenium | Browser automation |
+| PyTest | Test execution framework |
+| POM | Framework design pattern |
+| WebDriver Manager | Driver management |
+| GitHub | Version control |
+| Jenkins | CI/CD automation |
 
-PyTest testing framework is installed
+---
 
-Chrome browser is installed
+# Table of Contents
 
-ChromeDriver is configured
+1. [Project Structure](#project-structure)
+2. [Detailed Project Architecture](#detailed-project-architecture)
+3. [Project Features](#project-features)
+4. [Project Usage](#project-usage)
+5. [UI Under Test](#ui-under-test)
+6. [Test Design Techniques](#test-design-techniques)
+7. [Test Cases Covered In Project](#test-cases-covered-in-project)
+8. [Advantages Of This Framework](#advantages-of-this-framework)
+9. [CI/CD Integration](#cicd-integration)
+10. [Future Enhancements](#future-enhancements)
 
-Required Python packages are installed
+---
 
-Test Environment
-Parameter	Value
-Operating System	Windows
-Programming Language	Python
-Automation Tool	Selenium WebDriver
-Testing Framework	PyTest
-Browser	Google Chrome
-IDE	PyCharm
-Technologies Used
-
-Python
-
-Selenium WebDriver
-
-PyTest
-
-Page Object Model (POM)
-
-Excel Data-Driven Testing
-
-Explicit Waits (WebDriverWait)
-
-Table of Contents
-
-Project Structure
-
-Detailed Project Architecture
-
-Project Features
-
-Project Usage
-
-UI Under Test
-
-Test Design Techniques
-
-Test Cases Covered in Project
-
-Advantages of this Framework
-
-CI/CD Integration
-
-Future Enhancements
-
-Project Structure
+# Project Structure
 Project_3
 │
 ├── pages
@@ -130,181 +119,186 @@ Project_3
 ├── config.ini
 ├── conftest.py
 └── README.md
-Detailed Project Architecture
 
-The automation framework follows the Page Object Model (POM) design pattern.
+---
 
-Page Layer
+# Detailed Project Architecture
 
-Contains page classes that store:
+The framework follows the **Page Object Model (POM)** design pattern.
 
-Web element locators
+### Pages Layer
+Contains page classes representing each webpage.
 
-Page interaction methods
+### Tests Layer
+Contains PyTest test scripts that execute test scenarios.
 
-UI actions
+### Utils Layer
+Reusable helper utilities such as:
 
-Examples:
+- Driver initialization
+- Explicit waits
+- Screenshot capture
+- Test data reader
 
-LoginPage
+### Test Data Layer
+Stores external test data in Excel.
 
-ProductsPage
+---
 
-CartPage
+# Project Features
 
-CheckoutPage
+- Page Object Model framework
+- Data-driven testing
+- Modular reusable functions
+- Screenshot capture on important steps
+- Sorting validation
+- Cart validation
+- Checkout validation
+- Scalable automation structure
 
-Test Layer
+---
 
-Contains PyTest test scripts that validate application functionality.
+# Project Usage
 
-Examples:
+Install dependencies:
+pip install -r requirements.txt
 
-Login validation
 
-Product listing validation
+Run all tests:
 
-Cart validation
-
-Checkout validation
-
-Sorting validation
-
-Utility Layer
-
-Reusable helper modules used across the framework.
-
-Examples:
-
-Driver Factory
-
-Wait Utilities
-
-Screenshot Helper
-
-Config Reader
-
-Excel Data Reader
-
-Project Features
-
-Page Object Model architecture
-
-Modular test design
-
-Reusable utility modules
-
-Explicit waits implementation
-
-Screenshot capture capability
-
-Data-driven testing using Excel
-
-PyTest based test execution
-
-Clean and maintainable project structure
-
-Project Usage
-
-To execute the test suite run:
 
 pytest -v
 
-To execute a specific test file:
 
-pytest tests/test_login_page.py
-UI Under Test
+Generate HTML report:
 
-The application under test is SauceDemo, a demo e-commerce web application that provides the following features:
 
-User login authentication
+pytest --html=report.html
 
-Product browsing
 
-Cart management
+Generate Allure report:
 
-Checkout process
 
-Sorting functionality
+pytest --alluredir=allure-results
+allure serve allure-results
 
-Reset application state
 
-Test Design Techniques
+---
 
-The following testing techniques were applied:
+# UI Under Test
 
-Functional Testing
+The application under test is **SauceDemo E-commerce Website**.
 
-Positive Testing
+Major modules tested:
 
-Negative Testing
+- Login page
+- Products page
+- Cart page
+- Checkout page
+- Checkout overview page
+- Order confirmation page
 
-Data Driven Testing
+---
 
-UI Validation Testing
+# Test Design Techniques
 
-Test Cases Covered in Project
+The following testing techniques were used:
 
-The automation framework covers the following scenarios:
+- Functional Testing
+- UI Validation
+- Data Driven Testing
+- End-to-End Testing
+- Positive and Negative Testing
 
-Login with predefined users
+---
 
-Login with invalid credentials
+# Test Cases Covered In Project
 
-Validate logout functionality
+## Test Cases Covered In Project
 
-Verify cart icon visibility
+1. Verify successful login with valid credentials
+2. Verify login with invalid credentials
+3. Verify locked-out user cannot login
 
-Random product selection and data extraction
+4. Verify product list is displayed on the products page
+5. Verify product names are displayed correctly
+6. Verify product prices are displayed correctly
+7. Verify product images are displayed
+8. Verify "Add to Cart" button is present for products
+9. Verify adding a single product to the cart
+10. Verify cart badge increments after adding a product
+11. Verify adding multiple products to the cart
+12. Verify removing a product from the products page
 
-Add selected products to cart and validate
+13. Verify cart icon navigation to cart page
+14. Verify products added are displayed in the cart
+15. Verify cart item names match selected products
+16. Verify cart item prices match selected products
+17. Verify cart badge count matches number of products
+18. Verify removing a product from the cart page
+19. Verify continue shopping button navigation
+20. Verify cart retains products after navigation
 
-Validate product details inside cart
+21. Verify checkout button navigates to checkout information page
+22. Verify continue button functionality on checkout information page
+23. Verify cancel button navigates back to previous page
+24. Verify checkout validation when first name is empty
+25. Verify checkout validation when last name is empty
+26. Verify checkout validation when postal code is empty
+27. Verify checkout validation when all fields are empty
+28. Verify successful navigation to checkout overview page
 
-Complete checkout and validate order confirmation
+29. Verify order summary displays correct product names
+30. Verify order summary displays correct product prices
+31. Verify tax and total price calculation
+32. Verify finishing checkout successfully
+33. Verify order confirmation message after checkout
+34. Verify screenshot capture of order summary
 
-Validate product sorting functionality
+35. Verify product sorting functionality (Name A to Z, Z to A, Price Low to High, High to Low)
 
-Validate Reset App State functionality
+36. Verify "Reset App State" clears cart items and resets application state
 
-Advantages of this Framework
+---
 
-Modular and maintainable architecture
+# Advantages Of This Framework
 
-High reusability of page objects
+- Highly maintainable
+- Scalable architecture
+- Reusable components
+- Easy debugging
+- Supports CI/CD integration
 
-Easy scalability for new test cases
+---
 
-Clean code structure
+# CI/CD Integration
 
-Supports data-driven testing
+This project is integrated with **Jenkins** for continuous testing.
 
-Faster execution of repetitive tests
+Pipeline flow:
+GitHub → Jenkins → Test Execution → Report Generation
 
-CI/CD Integration
 
-This automation framework can be integrated with CI/CD tools such as:
+Benefits:
 
-Jenkins
+- Automated test execution
+- Continuous integration
+- Faster feedback
 
-GitHub Actions
+---
 
-GitLab CI
+# Future Enhancements
 
-Automation pipelines can execute the test suite automatically during build and deployment stages.
+Possible improvements for this framework:
 
-Future Enhancements
+- Parallel test execution
+- Docker integration
+- Cross-browser testing
+- Cloud execution (BrowserStack / SauceLabs)
+- Slack test notifications
 
-Possible improvements for the framework include:
+---
 
-Parallel test execution
+# Author
 
-Integration with reporting tools (Allure / HTML reports)
-
-CI/CD pipeline integration
-
-Docker-based execution
-
-Cross-browser testing
-
-Cloud testing integration (BrowserStack / Sauce Lab
+Automation Framework Developed by **Vidhyashree.V**
