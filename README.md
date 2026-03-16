@@ -46,14 +46,15 @@ Before executing the test suite:
 
 # Test Environment
 
-| Parameter | Value |
-|----------|------|
-| OS | Windows |
-| Language | Python |
+| Parameter       | Value    |
+|-----------------|----------|
+| OS              | Windows  |
+| Language        | Python   |
 | Automation Tool | Selenium |
-| Framework | PyTest |
-| Browser | Chrome |
-| IDE | PyCharm |
+| Framework       | PyTest   |
+| Browser         | Chrome   |
+| IDE             | PyCharm  |
+| CI\CD           | Jenkins  |
 
 ---
 
@@ -81,14 +82,18 @@ Before executing the test suite:
 6. [Test Design Techniques](#test-design-techniques)
 7. [Test Cases Covered In Project](#test-cases-covered-in-project)
 8. [Advantages Of This Framework](#advantages-of-this-framework)
-9. [CI/CD Integration](#cicd-integration)
+9. [Jenkins Integration](#jenkins-integration)
 10. [Future Enhancements](#future-enhancements)
 
 ---
 
 # Project Structure
 Project_3
-│
+
+├── jenkins_screenshots
+│     ├── build_success.png
+│     ├── console_output.png│
+
 ├── pages
 │   ├── base_page.py
 │   ├── login_page.py
@@ -115,7 +120,10 @@ Project_3
 │
 ├── test_data_excel
 │   └── login_test_data.xlsx
-│
+
+│-----allure-results   
+|
+|
 ├── config.ini
 ├── conftest.py
 └── README.md
@@ -271,9 +279,18 @@ The following testing techniques were used:
 
 ---
 
-# CI/CD Integration
+# Jenkins Integration
+This automation framework is integrated with Jenkins for continuous testing.
 
-This project is integrated with **Jenkins** for continuous testing.
+Pipeline Flow:
+1. Jenkins pulls the latest code from GitHub repository.
+2. Dependencies are installed using requirements.txt.
+3. PyTest test suite is executed automatically.
+4. HTML report is generated after execution.
+
+Build Command used in Jenkins:
+pip install -r requirements.txt
+pytest tests --html=report.html
 
 Pipeline flow:
 GitHub → Jenkins → Test Execution → Report Generation
