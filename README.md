@@ -163,6 +163,54 @@ Stores external test data in Excel.
 - Cart validation
 - Checkout validation
 - Scalable automation structure
+- Modular utility layer (DriverFactory, WaitUtils, DataReader)
+- Jenkins CI/CD integration
+- Step Decorator for step-level logging
+- Pytest parametrization
+
+### Step Decorator Implementation
+
+A **Step Decorator utility** is implemented to log each test step during execution.  
+This improves test readability and makes debugging easier when failures occur.
+
+The decorator prints a descriptive message before executing each step.
+
+STEP: Login with valid credentials
+
+Benefits:
+
+Provides clear step-by-step execution logs
+
+Helps identify which step failed
+
+Improves debugging efficiency
+
+Enhances readability of test execution flow
+
+### PyTest Parameterization for Data-Driven Login Testing
+
+The framework uses **PyTest parameterization** to execute login tests with multiple sets of credentials.  
+Test data is stored in an Excel file and read using a utility function. The credentials are then passed to the test using PyTest's `@pytest.mark.parametrize`.
+
+This approach enables **data-driven testing**, allowing the same test case to run with different inputs without duplicating code.
+
+Benefits:
+
+Enables data-driven testing
+
+Avoids duplication of test cases
+
+Improves test coverage
+
+Simplifies maintenance when test data changes
+
+Login credentials are maintained in:
+
+test_data/login_test_data.xlsx
+
+The test suite automatically reads this data and executes the login test with each credential set.
+
+
 
 ---
 
@@ -222,7 +270,7 @@ The following testing techniques were used:
 
 # Test Cases Covered In Project
 
-## Test Cases Covered In Project
+## Test Cases Covered In Project -Test suite with additional test cases
 
 1. Verify successful login with valid credentials
 2. Verify login with invalid credentials
